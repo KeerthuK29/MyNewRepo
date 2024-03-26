@@ -1,21 +1,14 @@
 import java.util.Scanner;
-public class problem1{
-    public static void main(String[] args){
-        Scanner sc=new Scanner (System.in);
-        System.out.print("enter the string:");
-        String a=sc.nextLine();
-        System.out.println(a);
+
+public class Addition {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+        int sum = num1 + num2;
+        System.out.println("The sum is: " + sum);
     }
-}      
-        
-    
-        
-        
-    
-        
-        
-
-        
-
-        }
-    } 
+}
