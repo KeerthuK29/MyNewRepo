@@ -14,6 +14,12 @@ pipeline{
                 }
             }
         }
-        
+        stage('Run'){
+            steps{
+                script{
+                    bat 'java problem1'
+                }
+            }
+        }
     }
 }
