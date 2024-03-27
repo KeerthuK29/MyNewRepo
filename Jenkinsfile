@@ -10,7 +10,7 @@ pipeline{
         stage('Build'){
             steps{
                 script {
-                 javac problem1.java
+                 javac 'problem1.java'
                 }
             }
         }
