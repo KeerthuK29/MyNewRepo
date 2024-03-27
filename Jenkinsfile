@@ -10,9 +10,10 @@ pipeline{
         stage('Build'){
             steps{
                 script {
-                  sh 'javac -cp . *.java'
+                  javac problem1.java
                 }
             }
         }
+        
     }
 }
