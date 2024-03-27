@@ -11,17 +11,6 @@ pipeline{
             steps{
                 script {
                  javac problem1.java
-
-                }
-            }
-        }
-                stage('Run') {
-            steps {
-                script {
-                    
-                     java  problem1
- 
-                    
                 }
             }
         }
