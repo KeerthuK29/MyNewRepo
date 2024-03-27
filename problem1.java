@@ -1,7 +1,7 @@
 public class problem1 {
 
     public static void main(String[] args) {
-       system.out.println("This is Keerthana ");
-        system.out.println("Good Morning");
+       System.out.println("This is Keerthana ");
+        System.out.println("Good Morning");
     }
 }
