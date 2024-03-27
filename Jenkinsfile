@@ -10,7 +10,7 @@ pipeline{
         stage('Build'){
             steps{
                 script {
-                 echo 'problem1.java'
+                  sh 'javac -cp . *.java'
                 }
             }
         }
