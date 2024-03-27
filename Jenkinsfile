@@ -10,7 +10,7 @@ pipeline{
         stage('Build'){
             steps{
                 script {
-                 sh 'javac problem1.java'
+                 javac problem1.java
 
                 }
             }
@@ -19,7 +19,7 @@ pipeline{
             steps {
                 script {
                     
-                     sh 'java  problem1'
+                     java  problem1
  
                     
                 }
